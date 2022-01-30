@@ -145,14 +145,14 @@ func InviteAll(filename string){
 	defer file.Close()
 	reader := bufio.NewReader(file)
 	for {
-			line, _, err := reader.ReadLine()
-			if err == io.EOF {
-					break
-			}
-			email := string(line)
-			fmt.Printf("Sending email to %s \n", email)
-			InviteMember(token, team, email)
-			fmt.Printf("------\n")
+		line, _, err := reader.ReadLine()
+		if err == io.EOF {
+				break
+		}
+		email := string(line)
+		fmt.Printf("Sending email to %s \n", email)
+		InviteMember(token, team, email)
+		fmt.Printf("------\n")
 	}
 }
 
