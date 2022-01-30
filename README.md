@@ -5,13 +5,15 @@ Tool to send Docker Hub Invites
 
 The Docker Hub Invite tool is a tool automating member invite to 
 [Docker Hub](https://hub.docker.com).
-It extents Docker Hub UI with ability to invite tens or hundreds users to Docker Hub Orgasation.
+It extents Docker Hub UI (where you can invite only singe member) with ability to invite tens or hundreds users to Docker Hub Orgasation.
 
 ## Get started
 
 ### Prerequisites
 
 Login to the [Docker Hub](https://hub.docker.com) and note [organization]((https://hub.docker.com/orgs)) and team name, where you want to invite members.
+
+Add needed count of seats into your org account.
 
 Get token with:
 ```console
@@ -26,6 +28,7 @@ export DOCKERHUBINVITEFILE=emails.txt
 export DOCKERHUBTESTMODE=false
 ```
 > NOTE: DOCKERHUBTESTMODE=true will set read only mode to get members from org and team.
+
 Source it:
 ```
 # source .ENV
