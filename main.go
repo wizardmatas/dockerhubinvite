@@ -11,7 +11,7 @@ import (
 	"bufio"
 )
 
-var bodyString string
+var bodyStr string
 var jsonStr    string
 var token = os.Getenv("DOCKERHUBTOKEN")
 var org = os.Getenv("DOCKERHUBORG")
@@ -29,7 +29,7 @@ func main() {
 	CheckVariables(token,org,team,filename)
 	checkStatus := CheckToken(token,org)
 	fmt.Println("Token Check",checkStatus)
-    TestMode(testmode)
+	TestMode(testmode)
 	fmt.Println("Start member invite...")
 	InviteAll(filename)
 	//members := GetMembers()
@@ -55,9 +55,9 @@ func GetMembers() string {
 	    if err != nil {
 		    log.Fatal(err)
 	    }
-	    bodyString = string(bodyBytes)
+	    bodyStr = string(bodyBytes)
 	}
-	return(bodyString)
+	return(bodyStr)
 }
 
 // InviteMember function to form post request
@@ -111,7 +111,7 @@ func CheckToken(token string, org string) string {
 	    if err != nil {
 		    log.Fatal(err)
 	    }
-	    bodyString = string(bodyBytes)
+	    bodyStr = string(bodyBytes)
 	} else {
 	    log.Fatal("Token is invalid")
 	}
