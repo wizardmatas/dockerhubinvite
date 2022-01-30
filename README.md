@@ -15,7 +15,7 @@ Login to the [Docker Hub](https://hub.docker.com) and note [organization]((https
 
 Get token with:
 ```console
-# curl -X POST 'https://hub.docker.com/v2/users/login' -H 'Content-Type: application/json' --data-raw '{"username": "myusername","password":"hunter2"}'`
+# curl -X POST 'https://hub.docker.com/v2/users/login' -H 'Content-Type: application/json' --data-raw '{"username": "myusername","password":"hunter2"}'
 ```
 Fill in env variables `.ENV`:
 ```
