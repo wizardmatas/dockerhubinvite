@@ -1,3 +1,5 @@
+![example workflow](https://github.com/wizardmatas/dockerhubinvite/actions/workflows/go.yml/badge.svg)
+
 # Docker Hub Invite
 Tool to send Docker Hub Invites
 
