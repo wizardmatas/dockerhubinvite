@@ -1,6 +1,6 @@
 ![example workflow](https://github.com/wizardmatas/dockerhubinvite/actions/workflows/go.yml/badge.svg)
 
-> Docker Desktop licencing changed and some [organisations](https://www.docker.com/pricing/faq) need to buy licence to run Docker Desktop, to do it you mus invite members to Docker Hub where licencing managed for Teams Plan . Tool was created to automate invite managemnt for Teams plan.
+> Docker Desktop licencing changed and some [organisations](https://www.docker.com/pricing/faq) need to buy licence to run Docker Desktop, to do it you mus invite members to Docker Hub where licencing managed for Teams Plan. Tool was created to automate invite management for Teams plan.
 
 # Docker Hub Invite
 Tool to send Docker Hub Invites
