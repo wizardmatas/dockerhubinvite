@@ -60,9 +60,5 @@ I'd love to know how you're using this tool and what features you'd like to see
 us add.
 
 ### Code
-
-At this stage of the project, we're mostly looking for feedback. We will accept
-pull requests but these should be limited to minor improvements and fixes.
-Anything larger should first be discussed as an issue.
 If you spot a bug or see a typo, please feel free to fix it by putting up a
 [pull request](https://github.com/wizardmatas/dockerhubinvite/pulls)!
