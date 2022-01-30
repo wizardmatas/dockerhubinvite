@@ -32,20 +32,11 @@ Source it:
 ```
 
 
-
-### Install
-
-- Download the latest release for your platform from
-  [here](https://github.com/wizardmatas/dockerhubinvite/releases)
-- Extract the package and place the `dockerhubinvite` binary somewhere in your `PATH`
-
-OR
-
-- Install from sources: `GO111MODULE=on go get github.com/wizardmatas/dockerhubinvite`
-
 ### Run
 
 ```
+git clone https://github.com/wizardmatas/dockerhubinvite.git
+cd dockerhubinvite/
 ./dockerhubinvite
 Token Check Started...
 Token Check 200 OK
